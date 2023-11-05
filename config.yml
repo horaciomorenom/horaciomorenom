@@ -1,4 +1,4 @@
-baseURL: "https://horaciomorenom.github.io" 
+baseURL: "https://horaciomorenom.me/" 
 title: Prof. Name
 paginate: 20
 theme: PaperMod
@@ -22,7 +22,7 @@ menu:
           url: data/
           weight: 3 
         - name: Newsletter
-          url: https://pmichaillat.substack.com
+          url: https://horaciomorenom.me/
           weight: 4
 
 params:
