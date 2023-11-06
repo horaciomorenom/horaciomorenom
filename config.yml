@@ -1,5 +1,5 @@
 baseURL: "https://www.horaciomorenom.me/" 
-title: Horacio Moreno Montanes
+title: Horacio Moreno Montañes
 paginate: 20
 theme: PaperMod
 
@@ -12,8 +12,8 @@ taxonomies:
 
 menu:
     main:
-        - name: Papers
-          url: papers/
+        - name: Projects
+          url: projects/
           weight: 1
         - name: Courses
           url: courses/
@@ -51,15 +51,15 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Horacio Moreno Montanes
+          title: Horacio Moreno Montañes
           subtitle: "I am an undergraduate student studing Applied Mathematics and Interdisciplinary Physics at the University of Michigan. I am interested in nonlinear systems and plasma and fluid dynamics. "
           imageUrl: "picture.jpg"
           imageWidth: 350
           imageHeight: 350
           imageTitle: Horacio
           buttons:
-            - name: Papers
-              url: papers/
+            - name: Projects
+              url: projects/
             - name: Courses
               url: courses/
             - name: Data
@@ -74,7 +74,7 @@ params:
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:pascal.michaillat@gmail.com
+          url: mailto:hmorenom@umich.com
         - name: Location
           url: location/
         - name: Office Hours
