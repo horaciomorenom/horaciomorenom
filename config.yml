@@ -1,5 +1,5 @@
 baseURL: "https://www.horaciomorenom.me/" 
-title: Prof. Name
+title: Horacio Moreno Montanes
 paginate: 20
 theme: PaperMod
 
@@ -24,6 +24,7 @@ menu:
         - name: Newsletter
           url: https://www.horaciomorenom.me/
           weight: 4
+
 
 params:
     description: "I am a Professor of Subject at the University of Place. My research covers various topics.
@@ -51,12 +52,12 @@ consequat."
     math: true
     profileMode:
           enabled: true
-          title: Prof. Namely Name
-          subtitle: "I am a Professor of Subject at the University of Place. I work on various topics. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo."
-          imageUrl: "picture.jpeg"
-          imageWidth: 160
-          imageHeight: 160
-          imageTitle: Prof. Name
+          title: Horacio Moreno Montanes
+          subtitle: "I am an undergraduate student studing Applied Mathematics and Interdisciplinary Physics at the University of Michigan. I am interested in nonlinear dynamics, "
+          imageUrl: "picture.jpg"
+          imageWidth: 350
+          imageHeight: 350
+          imageTitle: Horacio
           buttons:
             - name: Papers
               url: papers/
