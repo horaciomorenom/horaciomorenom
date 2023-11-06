@@ -27,8 +27,7 @@ menu:
 
 
 params:
-    description: "I am a Professor of Subject at the University of Place. My research covers various topics.
-consequat."
+    description: "I am an undergraduate student studying Applied Mathematics and Interdisiplinary Physics."
     author: Name
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
@@ -53,7 +52,7 @@ consequat."
     profileMode:
           enabled: true
           title: Horacio Moreno Montanes
-          subtitle: "I am an undergraduate student studing Applied Mathematics and Interdisciplinary Physics at the University of Michigan. I am interested in nonlinear dynamics, "
+          subtitle: "I am an undergraduate student studing Applied Mathematics and Interdisciplinary Physics at the University of Michigan. I am interested in nonlinear systems and plasma and fluid dynamics. "
           imageUrl: "picture.jpg"
           imageWidth: 350
           imageHeight: 350
@@ -98,7 +97,7 @@ consequat."
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Prof. Name"
+      text: "Horacio"
       icon: favicon.ico
       iconHeight: 18
 
