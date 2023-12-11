@@ -52,20 +52,18 @@ params:
     profileMode:
           enabled: true
           title: Horacio Moreno Montañes
-          subtitle: "I am an undergraduate student studing Applied Mathematics and Interdisciplinary Physics at the University of Michigan. I am interested in nonlinear systems and plasma and fluid dynamics. "
+          subtitle: "I am an undergraduate student studing Applied Mathematics and Interdisciplinary Physics at the University of Michigan. I am interested in exploring mathematical patterns embedded in physical phenomena and using them so solve real-world probems. Some of the areas I want to dive deeper include fluid and plasma dynamics, mathematical modeling, and scientific computing."
           imageUrl: "picture.jpg"
           imageWidth: 350
           imageHeight: 350
-          imageTitle: Horacio
+          imageTitle: Me!
           buttons:
+            - name: CV
+              url: cv.pdf
             - name: Projects
               url: projects/
-            - name: Courses
-              url: courses/
-            - name: Data
-              url: data/
             - name: Newsletter
-              url: https://pmichaillat.substack.com
+              url: https://horaciomorenom.substack.com/
             - name: Tags
               url: tags/
             - name: Archive
@@ -75,20 +73,14 @@ params:
           url: cv.pdf
         - name: Email
           url: mailto:hmorenom@umich.com
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
         - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
+          url: https://www.youtube.com/@HoracioMorenoMontanes
         - name: GitHub
           url: https://github.com/pmichaillat
         - name: Substack
-          url: https://pmichaillat.substack.com
+          url: https://horaciomorenom.substack.com/
         - name: Twitter
-          url: https://twitter.com/pmichaillat
+          url: https://twitter.com/horaciomorenom
 
     assets:
         disableHLJS: true

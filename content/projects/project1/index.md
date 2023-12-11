@@ -1,17 +1,14 @@
 ---
-title: "Paper Title 1" 
-date: 2012-06-01
-tags: ["keyword 1","keyword 2","keyword 3"]
-author: "Author Name"
-description: "This paper shows things. Published in Journal Name, 2012." 
-summary: "This paper shows things using various techniques and data." 
+title: "Modeling 1D Cold Electrostatic Plasma with a Lagrangian Particle Method" 
+date: 2023-07-15
+tags: ["Plasma Modeling","Lagrangian Method"]
+author: "Horacio Moreno Montanes"
+description: "This paper develops a Lagrangian particle method to simulate plasmas using the Vlasov-Poisson equations." 
+summary: "This paper develops a Lagrangian particle method to simulate plasmas using the Vlasov-Poisson equations." 
 cover:
-    image: "paper1.png"
-    alt: "Image caption"
+    image: "close_up.png"
+    alt: "efd"
     relative: false
-editPost:
-    URL: "https://doi.org/10.1257/aer.102.4.1721"
-    Text: "Journal Name"
 
 ---
 
@@ -19,45 +16,44 @@ editPost:
 
 ##### Download
 
-+ [Paper](paper1.pdf)
-+ [Online appendix](appendix1.pdf)
-+ [Code and data](https://github.com/pmichaillat/job-rationing)
++ [Paper](2023_REU.pdf)
++ [Code](https://github.com/horaciomorenom/PlasmaModel.git)
 
 ---
 
 ##### Abstract
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The conventional approach to plasma simulations utilizes the particle-in-cell (PIC) method, but PIC simulations often lose resolution as complex features appear in the evolving plasma. This project develops an alternative Lagrangian particle method for a one-dimensional cold electrostatic plasma with periodic boundary conditions, which is both efficient and preserves accuracy as the plasma evolves in time, in contrast to existing methods. The plasma is described by the Vlasov-Poisson equations for the electron distribution in phase space and the self-consistent electric field in physical space. The plasma is represented by discrete charged macro-particles (representing electrons) with a neutralizing constant background distribution of positively charged ions. Two integration techniques, Euler's method and fourth order Runge-Kutta, are used to evolve the electrons, and regularization is applied to ensure continuity of the electric field. We investigate the effect of the numerical parameters, including the time step $\Delta t$, number of particles $N$, and the regularization parameter $\delta$. Initial results indicate that the lack of continuity in the non-regularized problem contributes to error growth for both integration schemes. Additionally, a particle insertion scheme is implemented to preserve the resolution of the plasma. Future extensions of this work seek to apply the method to study other distributions, like the two-stream instability and warm distributions, and further investigate the effects of electric field regularization regarding energy conservation and charge transport.
 
 ---
 
-##### Figure X: Figure caption
+##### Figure 14: Phase space plot of plasma with particle insertion for two periods.
 
-![](paper1.png)
+![](evol.png)
+
 
 ---
 
-##### Citation
+##### Figure 15: Expanded plot of plasma with particle insertion in region between two periods.
 
-Author. Year. "Title." *Journal* Volume (Issue): First page–Last page. https://doi.org/paper_doi.
+![](close_up.png)
 
-```BibTeX
-@article{AAYY,
-author = {Author},
-doi = {paper_doi},
-journal = {Journal},
-number = {Issue},
-pages = {XXX--YYY},
-title ={Title},
-volume = {Volume},
-year = {Year}}
-```
+
+---
+
+##### Animations
+
+Plasma evolution with particle insertion:
+
+<video width="640" height="360" controls>
+  <source src="insertion.mp4" type="video/mp4">
+</video>
+
+
 
 ---
 
 ##### Related material
 
-+ [Presentation slides](presentation1.pdf)
-+ [Dissertation title](https://escholarship.org/uc/item/7jr3m96r) – PhD dissertation on which this paper is based.
-+ [Column title](https://cep.lse.ac.uk/pubs/download/cp365.pdf) – Nontechnical column describing the paper.
-
++ [Presentation slides](REU_Presentation.pdf)
++ [Poster Presentation](SACNAS_poster.pdf)
