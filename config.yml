@@ -52,7 +52,7 @@ params:
     profileMode:
           enabled: true
           title: Horacio Moreno Montañes
-          subtitle: "I am an undergraduate student studing Applied Mathematics and Interdisciplinary Physics at the University of Michigan. I am interested in exploring mathematical patterns embedded in physical phenomena and using them so solve real-world probems. Some of the areas I want to dive deeper include fluid and plasma dynamics, mathematical modeling, and scientific computing."
+          subtitle: "I am an undergraduate student studing Applied Mathematics and Interdisciplinary Physics at the University of Michigan. I am interested in exploring mathematical patterns embedded in physical phenomena and using them so solve real-world probems. Some of the areas I want to dive deeper include mathematical modeling of complex systems, fluid and plasma dynamics, and scientific computing applications of machine learning."
           imageUrl: "picture.jpg"
           imageWidth: 350
           imageHeight: 350
