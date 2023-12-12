@@ -12,18 +12,18 @@ taxonomies:
 
 menu:
     main:
+        - name: CV
+          url: cv.pdf
+          weight: 1
         - name: Projects
           url: projects/
-          weight: 1
-        - name: Courses
-          url: courses/
           weight: 2
-        - name: Data
-          url: data/
-          weight: 3 
-        - name: Newsletter
-          url: https://www.horaciomorenom.me/
-          weight: 4
+        - name: Thoughts
+          url: thoughts/
+          weight: 3
+        - name: Keywords
+          url: /tags/
+          weight: 5
 
 
 params:
@@ -62,8 +62,8 @@ params:
               url: cv.pdf
             - name: Projects
               url: projects/
-            - name: Newsletter
-              url: https://horaciomorenom.substack.com/
+            - name: Thoughts
+              url: thoughts/
             - name: Tags
               url: tags/
             - name: Archive
