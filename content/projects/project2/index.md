@@ -6,7 +6,7 @@ author: ["Horacio Morneo Montanes", "Faran Bhagat", "Isha Venkatesh"]
 description: "This paper develops a simple model that recreates the dynamics of stadium waves." 
 summary: "This paper develops a simple model that recreates the dynamics of stadium waves." 
 cover:
-    image: "stadium_wave.png"
+    image: "stadium_wave_3.png"
     alt: "Stadium Wave Model"
     relative: false
 
