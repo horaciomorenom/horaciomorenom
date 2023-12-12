@@ -1,17 +1,14 @@
 ---
-title: "Paper Title 2" 
-date: "2017-12-01"
-tags: ["keyword 1","keyword 2","keyword 4"]
-author: ["Author Name 1", "Author Name 2"]
-description: "This paper shows other things. Published in Journal Name, 2015." 
-summary: "This paper shows other things using other techniques and different data." 
+title: "Modeling of Stadium Waves" 
+date: "2023-04-18"
+tags: ["Modeling","Networks","Discrete"]
+author: ["Horacio Morneo Montanes", "Faran Bhagat", "Isha Venkatesh"]
+description: "This paper develops a simple model that recreates the dynamics of stadium waves." 
+summary: "This paper develops a simple model that recreates the dynamics of stadium waves." 
 cover:
-    image: "paper2.png"
-    alt: "Image caption"
+    image: "stadium_wave.png"
+    alt: "Stadium Wave Model"
     relative: false
-editPost:
-    URL: "https://doi.org/10.1073/pnas.1816454115"
-    Text: "Other Journal Name"
 
 ---
 
@@ -19,43 +16,41 @@ editPost:
 
 ##### Download
 
-+ [Paper](paper2.pdf)
-+ [Online appendix](appendix2.pdf)
-+ [Code and data](https://github.com/pmichaillat/unemployment-gap)
++ [Paper](Modeling_Stadium_Waves.pdf)
 
 ---
 
 ##### Abstract
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The wave is a common phenomenon at stadiums during sports events. During Michigan football season, it is hard to attend a game without participating in the wave around the Big House at least once. Inspired by this experience, this project aims to model the behavior of people in thestadium doing the wave. Our model follows the basic concepts of an agent-based, directed Social Network Model where people are modeled as nodes and have certain levels of influence from other nodes. Our motivation is to model human behavior and influence when there is a large number of people in a confined space.The question we aim to answer is: What initial number of people and in what arrangement does it take for the entire stadium to be participating? We define the entire stadium as participating as everyone in a column standing up while the wave is traveling in a complete round back to its initial position.
 
 ---
 
-##### Figure X: Figure caption
-
-![](paper2.png)
-
----
-
-##### Citation
-
-Author 1 and Author 2. Year. "Title." *Journal* Volume (Issue): First page–Last page. https://doi.org/paper_doi.
-
-```BibTeX
-@article{AAYY,
-author = {Author 1 and Author 2},
-doi = {paper_doi},
-journal = {Journal},
-number = {Issue},
-pages = {XXX--YYY},
-title ={Title},
-volume = {Volume},
-year = {Year}}
-```
+##### Figure 4: Evolution of a 3x5 initial wave
+ 
+ $t=0$                     |                $t=21$            |  $t=42$  
+:-------------------------:|:-------------------------------:|:-----------------:
+![](stadium_wave_1.png)    |   ![](stadium_wave_2.png)       | ![](stadium_wave_3.png)
 
 ---
 
-##### Related material
+##### Animations
 
-+ [Presentation slides](presentation2.pdf)
+
+<figure>
+    <video width="640" height="360" controls>
+    <source src="threshold_wave.mp4" type="video/mp4">
+    </video>
+<figcaption>Different wave propagations with identical initial conditions with varying "transportation" thresholds $h$.</figcaption>
+</figure>
+
+
+
+<figure>
+  <video width="640" height="640" controls>
+    <source src="threshold_low.mp4" type="video/mp4">
+  </video>
+  <figcaption>An interesting animation of what happens when the wave threshold is extremelly low!</figcaption>
+</figure>
+
 

@@ -2,7 +2,7 @@
 title: "Modeling 1D Cold Electrostatic Plasma with a Lagrangian Particle Method" 
 date: 2023-07-15
 tags: ["Plasma Modeling","Lagrangian Method"]
-author: "Horacio Moreno Montanes"
+author: ["Horacio Moreno Montanes", "Robert Krasny"]
 description: "This paper develops a Lagrangian particle method to simulate plasmas using the Vlasov-Poisson equations." 
 summary: "This paper develops a Lagrangian particle method to simulate plasmas using the Vlasov-Poisson equations." 
 cover:
